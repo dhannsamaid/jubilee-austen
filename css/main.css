@@ -4,6 +4,11 @@ body {
   font-size: 16px;
 }
 
+#about, #work, #contact-info {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
 /***** GRID *****/
 
 .full-width {
@@ -289,12 +294,6 @@ header h2 span {
     padding-left: 50px;
   }
 
-  #about p {
-    color: #7f7f7f;
-    font-size: 21px;
-    line-height: 40px;
-    margin: 1em auto;
-  }
 
   /***** WORK *****/
 
@@ -312,16 +311,8 @@ header h2 span {
   }
 
   #work h3 {
-    font-size: 24px;
-    line-height: 32px;
     margin: 0 auto;
     width: 80%;
-  }
-
-  #work p {
-    font-family: "Lora", serif;
-    font-size: 18px;
-    line-height: 30px;
   }
 
   /***** CONTACT *****/
@@ -436,6 +427,11 @@ header h2 span {
     padding-top: 70px;
   }
 
+  #about p {
+    font-size: 1.25rem;
+    line-height: 2em;
+  }
+
 
   /***** WORK *****/
 
@@ -453,18 +449,29 @@ header h2 span {
     padding-top: 50px;
   }
 
+  #work p {
+    font-size: 1.25rem;
+    line-height: 1.75em;
+  }
+
   /***** CONTACT *****/
 
   #contact {
     padding-top: 50px;
   }
-
-  #contact h2 {
-    padding-top: 1.5em;
+  
+  #contact-info {
+    padding-top: 0;
   }
 
-  #socialmedia-header {
+  #contact h2 {
     padding-top: 1em;
+  }
+
+  #contact #socialmedia-header {
+    padding-top: .5em;
+    margin-top: 1em;
+    margin-bottom: .75em;
   }
 
 }
